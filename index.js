@@ -1,3 +1,9 @@
-let greeting = prompt("Please enter your name:");
-newGreeting = "Welcome " + greeting;
-console.log(newGreeting);
+let a = 'red';  
+let b = 'blue';
+
+let c = a;
+a = b;
+b = c;
+
+console.log(a);
+console.log(b);
